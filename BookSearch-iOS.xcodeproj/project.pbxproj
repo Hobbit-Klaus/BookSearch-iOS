@@ -14,6 +14,7 @@
 		7ECC5D0A1E5FBF8800E4E984 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC5D091E5FBF8800E4E984 /* BookCell.swift */; };
 		7ECC5D0C1E616F4800E4E984 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC5D0B1E616F4800E4E984 /* Book.swift */; };
 		7ECC5D0E1E61723F00E4E984 /* BookClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC5D0D1E61723F00E4E984 /* BookClient.swift */; };
+		7ECC5D101E62D29E00E4E984 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC5D0F1E62D29E00E4E984 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7ECC5D091E5FBF8800E4E984 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		7ECC5D0B1E616F4800E4E984 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		7ECC5D0D1E61723F00E4E984 /* BookClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookClient.swift; sourceTree = "<group>"; };
+		7ECC5D0F1E62D29E00E4E984 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7ECC5CFE1E5FBA0800E4E984 /* Assets.xcassets */,
 				7ECC5D001E5FBA0800E4E984 /* LaunchScreen.storyboard */,
 				7ECC5D031E5FBA0800E4E984 /* Info.plist */,
+				7ECC5D0F1E62D29E00E4E984 /* Extensions.swift */,
 			);
 			path = "BookSearch-iOS";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ECC5D0C1E616F4800E4E984 /* Book.swift in Sources */,
+				7ECC5D101E62D29E00E4E984 /* Extensions.swift in Sources */,
 				7ECC5D0A1E5FBF8800E4E984 /* BookCell.swift in Sources */,
 				7ECC5CFA1E5FBA0800E4E984 /* BookListController.swift in Sources */,
 				7ECC5D0E1E61723F00E4E984 /* BookClient.swift in Sources */,

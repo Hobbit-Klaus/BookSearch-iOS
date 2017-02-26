@@ -6,27 +6,7 @@ class BookCell: UICollectionViewCell {
         didSet {
             lblTitle.text = book?.title
             lblAuthor.text = book?.author
-            
-            let urlString = book?.getCoverUrl()
-            if urlString != "" {
-                let url = URL(string: urlString!)
-                if let url = url {
-                    URLSession.shared.dataTask(with: url) { (data, response, error) in
-                        if error != nil {
-                            print(error ?? "")
-                            return
-                        }
-                        
-                        DispatchQueue.main.async {
-                            self.ivBookCover.image = UIImage(data: data!)
-                        }
-                    }.resume()
-                } else {
-                    self.ivBookCover.image = UIImage(named: "ic_nocover")
-                }
-            } else {
-                self.ivBookCover.image = UIImage(named: "ic_nocover")
-            }
+            ivBookCover.loadImageUrl(urlString: (book?.getCoverUrl())!)
         }
     }
     
