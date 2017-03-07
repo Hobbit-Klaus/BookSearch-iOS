@@ -10,8 +10,8 @@ class BookCell: UICollectionViewCell {
         }
     }
     
-    let ivBookCover: UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 56, height: 56))
+    let ivBookCover: CustomImageView = {
+        let imageView = CustomImageView(frame: CGRect(x: 0, y: 0, width: 56, height: 56))
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
